@@ -125,7 +125,11 @@
   display: flex;
   flex-direction: column;
 
+}
 
+.domino:hover {
+    
+  border: 3px solid orange;
 
 }
 
