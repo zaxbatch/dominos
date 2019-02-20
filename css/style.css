@@ -1,0 +1,132 @@
+.domino-box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 24rem;
+
+}
+
+.domino {
+  display: block;
+	border: 1px solid white;
+	height: 8rem;
+  width: 3rem;
+  background-color: black;
+  border-radius: 10%;
+}
+
+.domino-line {
+  margin-top: 4rem;
+  border: 1px solid red;
+  width: 2.4rem;
+  height: 0;
+  margin-left: .2rem; 
+  
+}
+
+#domino1 {
+
+}
+
+#domino2 {
+
+}
+
+#domino3 {
+
+}
+
+.dot {
+  background-color:red;
+  border-radius: 50%;
+  width: .6rem;
+  height: .6rem;
+
+}
+
+.bottom-one {
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+
+}
+
+.bottom-two {
+  transform: rotate(45deg);
+  margin-top: 1rem;
+  margin-left: .8rem;
+
+}
+
+.bottom-three {
+  transform: rotate(45deg);
+  margin-top: .8rem;
+  margin-left: .8rem;
+}
+
+.bottom-four {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: .1rem;
+}
+
+.bottom-five {
+
+}
+
+.bottom-six {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content-content: space-around;
+  margin-top: .2rem;
+
+}
+
+.top-one {
+  margin-top: -2.2rem;
+  margin-left: 1rem;
+
+}
+
+.top-two {
+  transform: rotate(45deg);
+  margin-top: -2.8rem;
+  margin-left: .8rem;
+
+}
+
+.top-three {
+  transform: rotate(45deg);
+  margin-top: -3rem;
+  margin-left: .8rem;
+}
+
+.top-four {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: .1rem;
+  margin-top: -1.6rem;
+
+}
+
+.top-six {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content-content: space-around;
+  margin-top:-3.8rem;
+  
+
+}
+
+.three-down {
+
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
